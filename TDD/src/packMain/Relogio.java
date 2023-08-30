@@ -35,9 +35,9 @@ public class Relogio {
 	}
 	
 	public void programaHoraMinSeg(byte horas, byte minutos, byte segundos) {
-        this.hora = horas;
-        this.minuto = minutos;
-        this.segundo = segundos;
+        	this.hora = horas;
+        	this.minuto = minutos;
+        	this.segundo = segundos;
     }
 	
 	public int cronometro(byte horaInicio, byte minutoInicio, byte segundoInicio, byte horaFim, byte minutoFim, byte segundoFim) {
