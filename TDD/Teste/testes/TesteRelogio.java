@@ -14,15 +14,15 @@ class TesteRelogio {
 	void testReiniciaMeiaNoite() {
 		relogioTest.reiniciaMeiaNoite();
 		assertEquals(0, relogioTest.getHora());
-        assertEquals(0, relogioTest.getMinuto());
-        assertEquals(0, relogioTest.getSegundo());
+        	assertEquals(0, relogioTest.getMinuto());
+        	assertEquals(0, relogioTest.getSegundo());
 	}
 	@Test
 	void testProgramaHoraMinSeg() {
 		relogioTest.programaHoraMinSeg((byte)2, (byte)30, (byte)40);
 		assertEquals(2, relogioTest.getHora());
-        assertEquals(30, relogioTest.getMinuto());
-        assertEquals(40, relogioTest.getSegundo());
+        	assertEquals(30, relogioTest.getMinuto());
+        	assertEquals(40, relogioTest.getSegundo());
 	}
 	@Test
 	void testCronometro() {
@@ -50,7 +50,7 @@ class TesteRelogio {
 		relogioTest.atualizaHora();
 		//deu certo na hora
 		assertEquals(18, relogioTest.getHora());
-        assertEquals(57, relogioTest.getMinuto());
-        assertEquals(30, relogioTest.getSegundo());
+        	assertEquals(57, relogioTest.getMinuto());
+        	assertEquals(30, relogioTest.getSegundo());
 	}
 }
