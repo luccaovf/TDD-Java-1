@@ -26,4 +26,10 @@ public class Relogio {
 		this.segundo = segundo;
 	}
 	
+	
+	public void reiniciaMeiaNoite() {
+		this.hora= 00;
+		this.minuto= 00;
+		this.segundo=00;
+	}
 }
